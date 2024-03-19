@@ -1,6 +1,4 @@
-Git is free
-hahah.
-111
-git changed
-222
-Creating a new branch is quick and simple.
+0：这是学习git的开始
+1：第一个项目 集群式聊天服务器
+day1：json
+Json是一种轻量级的数据交换格式（也叫数据序列化方式）。Json采用完全独立于编程语言的文本格式来存储和表示数据。简洁和清晰的层次结构使得 Json 成为理想的数据交换语言。 易于人阅读和编写，同时也易于机器解析和生成，并有效地提升网络传输效率。
