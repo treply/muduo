@@ -9,7 +9,11 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-lmuduo_net",
+                "-lmuduo_base",
+                "-lpthread"
+
             ],
             "options": {
                 "cwd": "${fileDirname}"
