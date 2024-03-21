@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../bin/main"
-  "../bin/main.pdb"
+  "../../bin/main"
+  "../../bin/main.pdb"
   "CMakeFiles/main.dir/muduo_server.cpp.o"
   "CMakeFiles/main.dir/muduo_server.cpp.o.d"
 )

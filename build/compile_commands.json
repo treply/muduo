@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/zzm/learngit/build/testmuduo",
+  "command": "/usr/bin/c++   -g -g -o CMakeFiles/main.dir/muduo_server.cpp.o -c /home/zzm/learngit/testmuduo/muduo_server.cpp",
+  "file": "/home/zzm/learngit/testmuduo/muduo_server.cpp"
+}
+]

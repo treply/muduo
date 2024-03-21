@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zzm/learngit/testmuduo
+CMAKE_SOURCE_DIR = /home/zzm/learngit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zzm/learngit/testmuduo/build
+CMAKE_BINARY_DIR = /home/zzm/learngit/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzm/learngit/testmuduo/build/CMakeFiles /home/zzm/learngit/testmuduo/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzm/learngit/testmuduo/build/CMakeFiles 0
+	cd /home/zzm/learngit/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zzm/learngit/build/CMakeFiles /home/zzm/learngit/build/testmuduo//CMakeFiles/progress.marks
+	cd /home/zzm/learngit/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testmuduo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzm/learngit/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/zzm/learngit/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testmuduo/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,30 +103,31 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/zzm/learngit/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testmuduo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/zzm/learngit/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testmuduo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/zzm/learngit/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named main
+# Convenience name for target.
+testmuduo/CMakeFiles/main.dir/rule:
+	cd /home/zzm/learngit/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testmuduo/CMakeFiles/main.dir/rule
+.PHONY : testmuduo/CMakeFiles/main.dir/rule
 
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+# Convenience name for target.
+main: testmuduo/CMakeFiles/main.dir/rule
 .PHONY : main
 
 # fast build rule for target.
 main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+	cd /home/zzm/learngit/build && $(MAKE) $(MAKESILENT) -f testmuduo/CMakeFiles/main.dir/build.make testmuduo/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
 muduo_server.o: muduo_server.cpp.o
@@ -134,7 +135,7 @@ muduo_server.o: muduo_server.cpp.o
 
 # target to build an object file
 muduo_server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/muduo_server.cpp.o
+	cd /home/zzm/learngit/build && $(MAKE) $(MAKESILENT) -f testmuduo/CMakeFiles/main.dir/build.make testmuduo/CMakeFiles/main.dir/muduo_server.cpp.o
 .PHONY : muduo_server.cpp.o
 
 muduo_server.i: muduo_server.cpp.i
@@ -142,7 +143,7 @@ muduo_server.i: muduo_server.cpp.i
 
 # target to preprocess a source file
 muduo_server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/muduo_server.cpp.i
+	cd /home/zzm/learngit/build && $(MAKE) $(MAKESILENT) -f testmuduo/CMakeFiles/main.dir/build.make testmuduo/CMakeFiles/main.dir/muduo_server.cpp.i
 .PHONY : muduo_server.cpp.i
 
 muduo_server.s: muduo_server.cpp.s
@@ -150,7 +151,7 @@ muduo_server.s: muduo_server.cpp.s
 
 # target to generate assembly for a file
 muduo_server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/muduo_server.cpp.s
+	cd /home/zzm/learngit/build && $(MAKE) $(MAKESILENT) -f testmuduo/CMakeFiles/main.dir/build.make testmuduo/CMakeFiles/main.dir/muduo_server.cpp.s
 .PHONY : muduo_server.cpp.s
 
 # Help Target
@@ -176,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/zzm/learngit/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

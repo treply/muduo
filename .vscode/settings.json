@@ -3,5 +3,6 @@
         "iostream": "cpp",
         "ostream": "cpp"
     },
-    "cmake.cmakePath": "/usr/bin/cmake"
+    "cmake.cmakePath": "/usr/bin/cmake",
+    "cmake.configureOnOpen": true
 }

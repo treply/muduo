@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zzm/learngit/testmuduo/muduo_server.cpp" "CMakeFiles/main.dir/muduo_server.cpp.o" "gcc" "CMakeFiles/main.dir/muduo_server.cpp.o.d"
+  "/home/zzm/learngit/testmuduo/muduo_server.cpp" "testmuduo/CMakeFiles/main.dir/muduo_server.cpp.o" "gcc" "testmuduo/CMakeFiles/main.dir/muduo_server.cpp.o.d"
   )
 
 # Targets to which this target links.

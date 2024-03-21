@@ -1,0 +1,5 @@
+/home/zzm/learngit/build/CMakeFiles/edit_cache.dir
+/home/zzm/learngit/build/CMakeFiles/rebuild_cache.dir
+/home/zzm/learngit/build/testmuduo/CMakeFiles/main.dir
+/home/zzm/learngit/build/testmuduo/CMakeFiles/edit_cache.dir
+/home/zzm/learngit/build/testmuduo/CMakeFiles/rebuild_cache.dir
