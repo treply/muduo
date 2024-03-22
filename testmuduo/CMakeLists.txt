@@ -7,7 +7,7 @@ set(SRC_LIST muduo_server.cpp)
 #aux_source_directory(. SRC_LIST)
 
 #设置可执行文件最终存储路径
-set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+#set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 
 add_executable(main ${SRC_LIST})

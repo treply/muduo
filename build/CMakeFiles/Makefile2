@@ -63,57 +63,72 @@ CMAKE_BINARY_DIR = /home/zzm/learngit/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: testmuduo/all
+all: src/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: testmuduo/preinstall
+preinstall: src/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: testmuduo/clean
+clean: src/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory testmuduo
+# Directory level rules for directory src
 
 # Recursive "all" directory target.
-testmuduo/all: testmuduo/CMakeFiles/main.dir/all
-.PHONY : testmuduo/all
+src/all: src/server/all
+.PHONY : src/all
 
 # Recursive "preinstall" directory target.
-testmuduo/preinstall:
-.PHONY : testmuduo/preinstall
+src/preinstall: src/server/preinstall
+.PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-testmuduo/clean: testmuduo/CMakeFiles/main.dir/clean
-.PHONY : testmuduo/clean
+src/clean: src/server/clean
+.PHONY : src/clean
 
 #=============================================================================
-# Target rules for target testmuduo/CMakeFiles/main.dir
+# Directory level rules for directory src/server
+
+# Recursive "all" directory target.
+src/server/all: src/server/CMakeFiles/ChatServer.dir/all
+.PHONY : src/server/all
+
+# Recursive "preinstall" directory target.
+src/server/preinstall:
+.PHONY : src/server/preinstall
+
+# Recursive "clean" directory target.
+src/server/clean: src/server/CMakeFiles/ChatServer.dir/clean
+.PHONY : src/server/clean
+
+#=============================================================================
+# Target rules for target src/server/CMakeFiles/ChatServer.dir
 
 # All Build rule for target.
-testmuduo/CMakeFiles/main.dir/all:
-	$(MAKE) $(MAKESILENT) -f testmuduo/CMakeFiles/main.dir/build.make testmuduo/CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f testmuduo/CMakeFiles/main.dir/build.make testmuduo/CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zzm/learngit/build/CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : testmuduo/CMakeFiles/main.dir/all
+src/server/CMakeFiles/ChatServer.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zzm/learngit/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target ChatServer"
+.PHONY : src/server/CMakeFiles/ChatServer.dir/all
 
 # Build rule for subdir invocation for target.
-testmuduo/CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzm/learngit/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testmuduo/CMakeFiles/main.dir/all
+src/server/CMakeFiles/ChatServer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzm/learngit/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/CMakeFiles/ChatServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzm/learngit/build/CMakeFiles 0
-.PHONY : testmuduo/CMakeFiles/main.dir/rule
+.PHONY : src/server/CMakeFiles/ChatServer.dir/rule
 
 # Convenience name for target.
-main: testmuduo/CMakeFiles/main.dir/rule
-.PHONY : main
+ChatServer: src/server/CMakeFiles/ChatServer.dir/rule
+.PHONY : ChatServer
 
 # clean rule for target.
-testmuduo/CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f testmuduo/CMakeFiles/main.dir/build.make testmuduo/CMakeFiles/main.dir/clean
-.PHONY : testmuduo/CMakeFiles/main.dir/clean
+src/server/CMakeFiles/ChatServer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/clean
+.PHONY : src/server/CMakeFiles/ChatServer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
