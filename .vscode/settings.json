@@ -56,7 +56,8 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "thread": "cpp"
     },
     "cmake.cmakePath": "/usr/bin/cmake",
     "cmake.configureOnOpen": true

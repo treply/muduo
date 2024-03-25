@@ -25,7 +25,9 @@ public:
   
     // 查询操作
     MYSQL_RES *query(string sql);
- 
+    
+    //获取连接
+    MYSQL* getconnection();
 
 private:
     MYSQL *_conn;

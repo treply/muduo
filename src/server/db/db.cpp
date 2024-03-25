@@ -28,6 +28,11 @@ bool MySQL::connect()
     {
         // c和c++默认编码字符是ASCALL，不设置显示问号
         mysql_query(_conn, "set names gbk");
+        LOG_INFO << "connect mysql success!";
+    }
+    else
+    {
+        LOG_INFO << "connect mysql fail!";
     }
     return p;
 }
@@ -54,4 +59,9 @@ MYSQL_RES *MySQL::query(string sql)
         return nullptr;
     }
     return mysql_use_result(_conn);
+}
+
+//获取连接
+MYSQL* MySQL::getconnection(){
+    return _conn;
 }

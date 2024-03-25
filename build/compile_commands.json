@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/zzm/learngit/build/src/server",
+  "command": "/usr/bin/c++  -I/home/zzm/learngit/include -I/home/zzm/learngit/thirdparty -I/home/zzm/learngit/include/server -I/home/zzm/learngit/include/server/db -g -g -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/zzm/learngit/src/server/chatserver.cpp",
+  "file": "/home/zzm/learngit/src/server/chatserver.cpp"
+},
+{
+  "directory": "/home/zzm/learngit/build/src/server",
+  "command": "/usr/bin/c++  -I/home/zzm/learngit/include -I/home/zzm/learngit/thirdparty -I/home/zzm/learngit/include/server -I/home/zzm/learngit/include/server/db -g -g -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/zzm/learngit/src/server/chatservice.cpp",
+  "file": "/home/zzm/learngit/src/server/chatservice.cpp"
+},
+{
+  "directory": "/home/zzm/learngit/build/src/server",
+  "command": "/usr/bin/c++  -I/home/zzm/learngit/include -I/home/zzm/learngit/thirdparty -I/home/zzm/learngit/include/server -I/home/zzm/learngit/include/server/db -g -g -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/zzm/learngit/src/server/main.cpp",
+  "file": "/home/zzm/learngit/src/server/main.cpp"
+},
+{
+  "directory": "/home/zzm/learngit/build/src/server",
+  "command": "/usr/bin/c++  -I/home/zzm/learngit/include -I/home/zzm/learngit/thirdparty -I/home/zzm/learngit/include/server -I/home/zzm/learngit/include/server/db -g -g -o CMakeFiles/ChatServer.dir/offlinemessagemodel.cpp.o -c /home/zzm/learngit/src/server/offlinemessagemodel.cpp",
+  "file": "/home/zzm/learngit/src/server/offlinemessagemodel.cpp"
+},
+{
+  "directory": "/home/zzm/learngit/build/src/server",
+  "command": "/usr/bin/c++  -I/home/zzm/learngit/include -I/home/zzm/learngit/thirdparty -I/home/zzm/learngit/include/server -I/home/zzm/learngit/include/server/db -g -g -o CMakeFiles/ChatServer.dir/usermodel.cpp.o -c /home/zzm/learngit/src/server/usermodel.cpp",
+  "file": "/home/zzm/learngit/src/server/usermodel.cpp"
+},
+{
+  "directory": "/home/zzm/learngit/build/src/server",
+  "command": "/usr/bin/c++  -I/home/zzm/learngit/include -I/home/zzm/learngit/thirdparty -I/home/zzm/learngit/include/server -I/home/zzm/learngit/include/server/db -g -g -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/zzm/learngit/src/server/db/db.cpp",
+  "file": "/home/zzm/learngit/src/server/db/db.cpp"
+}
+]

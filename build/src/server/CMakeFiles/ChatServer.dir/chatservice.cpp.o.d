@@ -253,7 +253,12 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: \
  /usr/include/boost/type_traits/add_reference.hpp \
  /usr/include/boost/utility/enable_if.hpp \
  /usr/include/boost/core/enable_if.hpp \
- /usr/include/boost/type_traits/is_same.hpp \
+ /usr/include/boost/type_traits/is_same.hpp /usr/include/c++/11/mutex \
+ /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
+ /usr/include/c++/11/limits /usr/include/c++/11/ctime \
+ /usr/include/c++/11/bits/parse_numbers.h \
+ /usr/include/c++/11/bits/std_mutex.h \
+ /usr/include/c++/11/bits/unique_lock.h \
  /home/zzm/learngit/thirdparty/json.hpp /usr/include/c++/11/cassert \
  /usr/include/c++/11/ciso646 /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h \
@@ -272,8 +277,7 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/11/bits/specfun.h /usr/include/c++/11/limits \
- /usr/include/c++/11/tr1/gamma.tcc \
+ /usr/include/c++/11/bits/specfun.h /usr/include/c++/11/tr1/gamma.tcc \
  /usr/include/c++/11/tr1/special_function_util.h \
  /usr/include/c++/11/tr1/bessel_function.tcc \
  /usr/include/c++/11/tr1/beta_function.tcc \
@@ -303,5 +307,8 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
+ /home/zzm/learngit/include/server/usermodel.hpp \
+ /home/zzm/learngit/include/server/user.hpp \
+ /home/zzm/learngit/include/server/offlinemessagemodel.hpp \
  /home/zzm/learngit/include/public.hpp /usr/include/muduo/base/Logging.h \
  /usr/include/muduo/base/LogStream.h
