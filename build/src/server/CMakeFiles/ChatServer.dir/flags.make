@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/zzm/learngit/include -I/home/zzm/learngit/thirdparty -I/home/zzm/learngit/include/server -I/home/zzm/learngit/include/server/db
+CXX_INCLUDES = -I/home/zzm/learngit/include -I/home/zzm/learngit/thirdparty -I/home/zzm/learngit/include/server -I/home/zzm/learngit/include/server/db -I/home/zzm/learngit/include/server/model -I/home/zzm/learngit/include/server/redis
 
 CXX_FLAGS = -g -g
 

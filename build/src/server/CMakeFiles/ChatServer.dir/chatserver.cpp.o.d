@@ -312,7 +312,17 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/zzm/learngit/include/server/usermodel.hpp \
- /home/zzm/learngit/include/server/user.hpp \
- /home/zzm/learngit/include/server/offlinemessagemodel.hpp \
+ /home/zzm/learngit/include/server/redis/redis.hpp \
+ /usr/local/include/hiredis/hiredis.h /usr/local/include/hiredis/read.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/local/include/hiredis/sds.h /usr/local/include/hiredis/alloc.h \
+ /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h \
+ /home/zzm/learngit/include/server/model/usermodel.hpp \
+ /home/zzm/learngit/include/server/model/user.hpp \
+ /home/zzm/learngit/include/server/model/offlinemessagemodel.hpp \
+ /home/zzm/learngit/include/server/model/friendmodel.hpp \
+ /home/zzm/learngit/include/server/model/groupmodel.hpp \
+ /home/zzm/learngit/include/server/model/group.hpp \
+ /home/zzm/learngit/include/server/model/groupuser.hpp \
  /usr/include/c++/11/iostream

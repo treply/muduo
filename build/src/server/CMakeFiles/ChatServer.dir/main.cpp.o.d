@@ -312,9 +312,19 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
- /home/zzm/learngit/include/server/usermodel.hpp \
- /home/zzm/learngit/include/server/user.hpp \
- /home/zzm/learngit/include/server/offlinemessagemodel.hpp \
+ /home/zzm/learngit/include/server/redis/redis.hpp \
+ /usr/local/include/hiredis/hiredis.h /usr/local/include/hiredis/read.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/local/include/hiredis/sds.h /usr/local/include/hiredis/alloc.h \
+ /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h \
+ /home/zzm/learngit/include/server/model/usermodel.hpp \
+ /home/zzm/learngit/include/server/model/user.hpp \
+ /home/zzm/learngit/include/server/model/offlinemessagemodel.hpp \
+ /home/zzm/learngit/include/server/model/friendmodel.hpp \
+ /home/zzm/learngit/include/server/model/groupmodel.hpp \
+ /home/zzm/learngit/include/server/model/group.hpp \
+ /home/zzm/learngit/include/server/model/groupuser.hpp \
  /usr/include/c++/11/iostream /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
