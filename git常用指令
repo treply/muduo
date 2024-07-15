@@ -3,7 +3,7 @@ git config --global https.proxy
 git config --global --unset https.proxy
 
 git init
-git remote add C_Primer_Plus_linux https://github.com/MeteorBless/C_Primer_Plus_linux.git
+git remote add origin https://github.com/treply/muduo
 git add 文件名
 git commit -m "备注"
 git pull origin master
